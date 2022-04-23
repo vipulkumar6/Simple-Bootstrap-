@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+
+    <style>
+        #explore_wrap {
+            /* background-color: mediumslateblue; */
+            height: 600px;
+        }
+
+        #heading {
+            color: #17a2b8;
+        }
+
+        #faq {
+            border: 1px solid red;
+            height: 600px;
+        }
+
+        #lists {
+            height: 250px;
+            border: 2px solid;
+        }
+        a{
+         list-style: none;
+
+         text-decoration: none;
+         color: #011;
+        }
+       #college-list ul li{
+            /* list-style: ; */
+            list-style-type: "\21D2"; 
+        }
+    </style>
+    <title>Bootstrap Website</title>
+</head>
+
+<body>
+    <div class="container-fluid">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="./index.html">Guides</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="./index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./contact.html">Contact</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#blog">Blog</a>
+                        </li>
+
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <div class="row m-3">
+            <div class="col-lg-6">
+                <img src="./Images/college.jpg" class="rounded img-fluid" alt="">
+            </div>
+            <div class="col-lg-6">
+                <div class="row justify-content-end">
+                    <div class="col-lg-8">
+                        <h1>Explore yoursely difrently with Guides.</h1>
+                        <p>Guides is a popular pplatform which helps student to select best and afforadable college and
+                            university, coaching etc.</p>
+                    </div>
+                    <div class="col-4 text-center">
+                        <button type="button" class="btn btn-outline-primary "> <a href="#explore">Explore</a> </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="row mt-10" id="explore">
+            <div class="col-lg-3 mt-4">
+                <h1 id="heading">Our Top Guider</h1>
+
+            </div>
+            <div class="col-lg-9 mt-4">
+                <table class="table table-hover">
+                    <thead class="table-primary">
+                        <tr>
+                            <th scope="col">NO</th>
+                            <th scope="col">First Name</th>
+                            <th scope="col">Last Name</th>
+                            <th scope="col">Social Handle</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <th scope="row">1</th>
+                            <td>Vipul</td>
+                            <td>Chauhan</td>
+                            <td>@vip_uul</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">2</th>
+                            <td>Mohd</td>
+                            <td>Shuiab</td>
+                            <td>@01shuaib01</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">3</th>
+                            <td>Sumit</td>
+                            <td>Chauhan</td>
+                            <td>@sumit2736</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">4</th>
+                            <td>Navya</td>
+                            <td>Sharma</td>
+                            <td>@navyasharma02</td>
+                        </tr>
+
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
+        <ul class="nav nav-tabs">
+            <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#university">University</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#college">College</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#coaching">Coachings</a>
+            </li>
+
+        </ul>
+    </div>
+
+    <!-- === -->
+
+    .
+    <!-- ============== slider or carosel ===============  -->
+
+    <div class="container" id="university">
+        <div class="row">
+            <div class="col-12">
+                <h1 id="heading" class="mb-2">India's Top University</h1>
+            </div>
+            <div class="row" id="college-list"> 
+                <div class="col-md-6">
+                    <ul>
+                        <li>Graphic Era University</li>
+                        <li>UPES</li>
+                        <li>UPES</li>
+                        <li>UPES</li>
+                        <li>UPES</li>
+                        <li>UPES</li>
+                        <li>UPES</li>
+                        <li>UPES</li>
+                        <li>UPES</li>
+                        <li>UPES</li>
+                        <li>UPES</li>
+                        <li>UPES</li>
+                    </ul>
+                </div>
+                <div class="col-md-6">
+                    <ul>
+                        <li>Graphic Era University</li>
+                        <li>UPES</li>
+                        <li>UPES</li>
+                        <li>UPES</li>
+                        <li>UPES</li>
+                        <li>UPES</li>
+                        <li>UPES</li>
+                        <li>UPES</li>
+                        <li>UPES</li>
+                        <li>UPES</li>
+                        <li>UPES</li>
+                        <li>UPES</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container" id="college">
+        <div class="row">
+            <div class="col-12" >
+                <h1 id="heading">India's Top College</h1>
+            </div>
+            <div class="row" id="college-list">
+                <div class="col-md-6">
+                    <ul>
+                        <li>Graphic Era University</li>
+                        <li>UPES</li>
+                        <li>UPES</li>
+                        <li>UPES</li>
+                        <li>UPES</li>
+                        <li>UPES</li>
+                        <li>UPES</li>
+                        <li>UPES</li>
+                        <li>UPES</li>
+                        <li>UPES</li>
+                        <li>UPES</li>
+                        <li>UPES</li>
+                    </ul>
+                </div>
+                <div class="col-md-6">
+                    <ul>
+                        <li>Graphic Era University</li>
+                        <li>UPES</li>
+                        <li>UPES</li>
+                        <li>UPES</li>
+                        <li>UPES</li>
+                        <li>UPES</li>
+                        <li>UPES</li>
+                        <li>UPES</li>
+                        <li>UPES</li>
+                        <li>UPES</li>
+                        <li>UPES</li>
+                        <li>UPES</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container" id="coaching">
+        <div class="row">
+            <div class="col-12" >
+                <h1 id="heading">India's Top Coaching</h1>
+            </div>
+            <div class="row" id="college-list">
+                <div class="col-md-6">
+                    <ul>
+                        <li>Graphic Era University</li>
+                        <li>UPES</li>
+                        <li>UPES</li>
+                        <li>UPES</li>
+                        <li>UPES</li>
+                        <li>UPES</li>
+                        <li>UPES</li>
+                        <li>UPES</li>
+                        <li>UPES</li>
+                        <li>UPES</li>
+                        <li>UPES</li>
+                        <li>UPES</li>
+                    </ul>
+                </div>
+                <div class="col-md-6">
+                    <ul>
+                        <li>Graphic Era University</li>
+                        <li>UPES</li>
+                        <li>UPES</li>
+                        <li>UPES</li>
+                        <li>UPES</li>
+                        <li>UPES</li>
+                        <li>UPES</li>
+                        <li>UPES</li>
+                        <li>UPES</li>
+                        <li>UPES</li>
+                        <li>UPES</li>
+                        <li>UPES</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-lg-12">
+                <h1 class="text-center border-bottom p-2 shadow-sm mb-5 bg-body rounded" id="heading">Read our Awesome Blogs</h1>
+            </div>
+        </div>
+        <div class="row justify-content-center">
+            <div class="col-lg-3 col-md-6">
+                <div class="card" style="width: 18rem;">
+                    <img src="./Images/slide 1.webp" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the card's content.</p>
+                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6">
+                <div class="card" style="width: 18rem;">
+                    <img src="./Images/slide 2.webp" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the card's content.</p>
+                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6">
+                <div class="card" style="width: 18rem;">
+                    <img src="./Images/slide 3.webp" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the card's content.</p>
+                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6">
+                <div class="card" style="width: 18rem;">
+                    <img src="./Images/slide 1.webp" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the card's content.</p>
+                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid mt-4">
+        <div class="row">
+            <div class="col">
+                <nav aria-label="Page navigation example">
+                    <ul class="pagination">
+                        <li class="page-item"><a class="page-link" href="./index.html">Previous</a></li>
+                        <li class="page-item"><a class="page-link" href="./page1.html">1</a></li>
+                        <li class="page-item"><a class="page-link" href="./page2.html">2</a></li>
+                        <li class="page-item"><a class="page-link" href="./page3.html">3</a></li>
+                        <li class="page-item"><a class="page-link" href="./page1.html">Next</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <link rel="stylesheet" href="./js/bootstrap.min.js">
+    <script>
+        var scrollSpy = new bootstrap.ScrollSpy(document.body, {
+            target: '#navbar-example'
+        })
+    </script>
+</body>
+
+</html>
